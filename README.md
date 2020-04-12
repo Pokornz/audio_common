@@ -1,6 +1,12 @@
 # ROS audio\_common Package
 
-This repository contains the ROS audio\_common package.
+To get started, clone the repository into your ROS workspace, build with `catkin build` and source `devel/setup.bash`.
+
+When compiling on Ubuntu 16.04, there can be a missing package issue - make sure **GStreamer** is installed.  
+Here is an installation command for Ubuntu or Debian:  
+```
+sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio libgstreamer-plugins-base1.0-dev
+```
 
 For user documentation, please refer to the [ROS Wiki page for audio\_common](http://wiki.ros.org/audio_common)
 

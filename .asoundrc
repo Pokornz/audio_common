@@ -1,0 +1,9 @@
+pcm.pulse_monitor {
+  type pulse
+  device #NAME
+}
+
+ctl.pulse_monitor {
+  type pulse
+  device #NAME
+}

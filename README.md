@@ -21,7 +21,7 @@ To be able to record sounds coming from the computer:
 # Recording Audio
 
 - `roslaunch audio_capture capture_all.launch` starts publishing audio from built-in microphone to */audio_mic/audio* and onboard sounds to */audio_onboard/audio* topics
-- `roslaunch audio_capture capture_all_bag.launch` same as above + launches an *audio_bagger* node, which starts and stops rosbagging audio based on a Bool from the *record_audio* topic
+- `roslaunch audio_capture capture_all_bag.launch` same as above + launches an *audio_bagger* node, which starts and stops rosbagging audio based on a Bool from the *record_audio* topic; for example `rostopic pub record_audio std_msgs/Bool 1` starts the rosbagging.
 
 # Playing audio
 
